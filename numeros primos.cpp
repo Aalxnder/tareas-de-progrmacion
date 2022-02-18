@@ -144,7 +144,6 @@ void archivos(void)
 		int i;
 		
 
-		printf("Los primeros %d numeros primos son : \n", N);
 		//inicializar variables
 		cont=0;
 		n=2;
@@ -158,7 +157,7 @@ void archivos(void)
 				//y ademas ese numero es igual a n es decir que es el mismo
         		if(i==n)
 				{
-					//imprimimos n en el archivo con fprintf
+					//imprimo n en el archivo con fprintf
 					fprintf(archivo,"%d \t",n);
 					cont++;
 				}

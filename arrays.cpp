@@ -15,7 +15,7 @@ void menu(int matriz[3][5]);
 void ordenar(int matriz[3][5]);
 void imprimirori(int matriz[3][5]);
 void imprimirord(int matriz[3][5]);
-void salir(void);
+void salir(int matriz[3][5]);
 //funcion main
 int main()
 {
@@ -36,6 +36,12 @@ void capturar(void)
 		{
 			printf("Ingresa el valor de la fila %d, columna %d:\n",i,j);
 			scanf("%d",&matriz[i][j]);
+			while(matriz[i][j]>50)
+			{
+				printf("error, solo se pueden agregar numros menores a 50\n");
+				printf("Ingresa el valor de la fila %d, columna %d:\n",i,j);
+				scanf("%d",&matriz[i][j]);
+			}
 		}
 	}
 	//llamar a la funcion menu pa que me pida agregar los valores a la matriz a fuerzas
@@ -56,7 +62,7 @@ void menu(int matriz[3][5])
 		{
 			case 1:
 			{
-				//ordenar(matriz);
+				ordenar(matriz);
 				break;
 			}
 			case 2:
@@ -66,12 +72,12 @@ void menu(int matriz[3][5])
 			}
 			case 3:
 			{
-				//imprimirord(matriz);
+				imprimirord(matriz);
 				break;
 			}
 			case 4:
 			{
-				//salir();
+				salir(matriz);
 				break;
 			}
 			default:
@@ -81,7 +87,7 @@ void menu(int matriz[3][5])
 			}
 		}
 	}while(opc != ' ');
-	
+	system("cls");
 }
 
 void imprimirori(int matriz[3][5])
@@ -107,11 +113,65 @@ void ordenar(int matriz[3][5])
 	printf("ordenando la matriz\n");
 	Sleep(500);
 	int i,j,i1,j1;
+	int aux;
 	for(i=0;i<3;i++)
 	{
 		for(j=0;j<5;j++)
 		{
-			for(i1)
+			for(i1=i;i1<3;i1++)
+			{
+				int caux=0;
+				if(i==i1)
+				{
+					caux=j+1;
+				}
+				for(j1=caux;j1<5;j1++)
+				{
+					if (matriz[i][j]>matriz[i1][j1])
+					{
+						aux=matriz[i1][j1];
+						matriz[i1][j1]=matriz[i][j];
+						matriz[i][j]=aux;
+					}
+				}
+			}
 		}
+	}
+	printf("la matriz se ha ordenado\n");
+	system("pause");
+	menu(matriz);
+}
+//imprimir ordenados
+void imprimirord(int matriz[3][5])
+{
+	int i,j;
+	for(i=0;i<3;i++)
+	{
+		for(j=0;j<5;j++)
+		{
+			printf("%d ", matriz[i][j]);
+		}
+		printf("\n");
+	}
+}
+
+void salir(int matriz[3][5])
+{
+	int s;
+	Sleep(500);
+	printf("realmente quiere salir?\n");
+	printf("presione 0 para salir o otro numero para permanecer\n");
+	scanf("%d",&s);
+	if(s==0)
+	{
+		printf("ha decididco finalizar el programa\n");
+		exit(-1);
+		system("pause");
+	}
+	else
+	{
+		printf("Ha decidido permanecer en el programa\n");
+		system("pause");
+		menu(matriz);
 	}
 }

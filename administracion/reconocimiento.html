@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto de administracion</title>
+    <link rel="stylesheet" href="/proyectoAdmin/reconocimiento.css">
+    <!--incluir jquery-->
+    <script src="./jquery-1.6.3.min.js"></script>
+    <!--funcion de desenfoque al cargar la pagina-->
+    <script>
+        $(function(){
+            $("body").hide().fadeIn(1000)
+        });
+    </script>
+    <script src="https://kit.fontawesome.com/9c7f1ed8be.js" crossorigin="anonymous"></script>
+
+</head>
+
+
+<body>
+    <!-- esta es la seccion de la barra de navegacion -->
+    <header class="header">
+        <div class="container logo-nav-container">
+            <h1><a href="reconocimiento.html" class="logo">Interpoln't</a> 
+            
+            <nav class="navigation">
+                <ul class="show">
+                    <li><a href="#presentation">Inicio</a></li>
+                    <li><a href="#aboutus">acerca de</a></li>
+                    <li><a href="#history">Nuestra historia</a></li>
+                    <li><a href="#servicios">servicios</a></li>
+                    <li><a href="#sospechosos">sospechosos</a></li>
+                    <li><a href="#contacto">contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+<!-- seccion de presentacion, es aqui donde va el video -->
+    <section class="presentation" id="presentation">
+        <br>
+        <div class="presentation-video">
+            <br>
+            <video src="/videos/faceid.mp4" loop="true" autoplay="true" muted="true"></video>
+        </div>
+        <div class="darkoverlay">
+            <div class="presentation-content">
+                <h2>Aqui va un slogan mamalon</h2>
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, et!</h3>
+                <br>
+            </div>
+        </div>
+        <hr>
+    </section>
+
+    <!-- seccion de about us -->
+    <section class="aboutus" id="aboutus">
+
+
+    </section>
+
+    <!-- seccion de historia -->
+    <section class="history">
+
+    </section>
+
+    <!-- seccion de nuestros servicios -->
+    <section class="services">
+
+    </section>
+
+
+    <!-- seccion de sospechosos -->
+    <section class="suspicious">
+        <form action="" class="formulario" id="formulario">
+            
+        </form>
+    </section>
+</body>
+</html>

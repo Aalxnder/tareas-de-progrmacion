@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');*
+{
+    box-sizing:border-box;
+    font-family: 'Source Sans Pro','sans serif';
+    margin: 0;
+}
+
+.left
+{
+    float: left;
+}
+
+.right
+{
+    float: right;
+}
+
+
+/* Header */
+.container
+{
+    margin: auto;
+    max-width: 1700px;
+    padding: 0.6rem;
+}
+
+header
+{
+    position: fixed;
+    background-color: rgb(42, 149, 211);
+    width: 100%;
+    max-width: 1700px;
+    padding: 2rem 0;
+}
+
+header a
+{
+    color: white;
+    text-decoration: none;
+    padding: 0 1rem;
+}
+
+.logo
+{
+    letter-spacing: 9px;
+    font-size: 1.4em;
+}
+
+
+.navigation
+{
+    float: right;
+    margin: 10px;
+}
+
+.navigation li
+{
+    display: inline;
+    font-size: 20px;
+    margin: auto;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.navigation li a
+{
+    display: inline;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 10px;
+}
+.navigation li a:hover
+{
+    background-color: rgb(135, 206, 235);
+}
+
+/* presentation */
+.presentation
+{
+    height: 720px;
+    font-size: 25px;
+    width: 100%;
+    max-width:1000 px;
+}
+.presentation-video
+{
+    padding-top: 6.9rem;
+    height: 720px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* max-width: 1700px; */
+    z-index: -1;
+}
+.presentation-video video
+{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    max-width: 1600px; 
+    
+}
+.darkoverlay 
+{
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    max-width: 1700px;
+}
+.presentation-content
+{
+    color: white;
+    text-align: center;
+    padding: 285px 0;
+    margin: auto;
+}
+
+.presentation-content h3
+{
+    font-size: 20px;
+}
+hr
+{
+    height: 10px;
+    background-color: rgb(42, 149, 211);
+}
+
+/* seccion de about us */
+.aboutus
+{
+    height: 500px;
+    font-size: 18px;
+}
+
+
+/* seccion de historia */
+.history
+{
+    height: 500px;
+    font-size: 18px;
+}
+
+/* seccion de nuestros servicios */
+.services
+{
+    height: 1600px;
+    font-size: 24px;
+}
+
+
+/* seccion de sospechosos */
+.suspicious
+{
+    height: 2000px;
+    font-size: 24px ;
+}
+@media only screen and (max-width:767px)
+{
+    .navigation
+    {
+        float: left;
+        margin: 10px;
+        margin-top: 1rem ;
+        width: 100%;
+    }
+    
+    .navigation ul 
+    {
+        display: block;
+    }
+
+    .navigation ul li
+    {
+        display: inline;
+        font-size: 20px;
+        margin: auto;
+        list-style: none;
+        flex-wrap: wrap;
+    }  
+
+    .navigation ul li a
+    {
+        display: block;
+        padding: 0.5rem 0;
+        transition: all 0.4s linear;
+        border-radius: 10px;
+    }
+    .navigation ul li a:hover
+    {
+        background-color: rgb(135, 206, 235);
+    }
+}

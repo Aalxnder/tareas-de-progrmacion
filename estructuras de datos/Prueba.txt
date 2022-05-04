@@ -1,0 +1,55 @@
+===SIMPLIFICACIÓN DE FRACCIONES===
+
+Fracción:5/10
+╔═════════╦══════════════════╦══════════╗
+║ Divisor ║ Veces que se usó ║ Producto ║
+╠═════════╬══════════════════╬══════════╣
+║5        ║1                 ║5         ║
+╚═════════╩══════════════════╩══════════╝
+
+Fraccion resultante:1/2
+
+===SIMPLIFICACIÓN DE FRACCIONES===
+
+Fracción:5/10
+╔═════════╦══════════════════╦══════════╗
+║ Divisor ║ Veces que se usó ║ Producto ║
+╠═════════╬══════════════════╬══════════╣
+║5        ║1                 ║5         ║
+╚═════════╩══════════════════╩══════════╝
+
+Fraccion resultante:1/2
+
+===SIMPLIFICACIÓN DE FRACCIONES===
+
+Fracción:5/10
+╔═════════╦══════════════════╦══════════╗
+║ Divisor ║ Veces que se usó ║ Producto ║
+╠═════════╬══════════════════╬══════════╣
+║5        ║1                 ║5         ║
+╚═════════╩══════════════════╩══════════╝
+
+Fraccion resultante:1/2
+
+===SIMPLIFICACIÓN DE FRACCIONES===
+
+Fracción:5/10
+╔═════════╦══════════════════╦══════════╗
+║ Divisor ║ Veces que se usó ║ Producto ║
+╠═════════╬══════════════════╬══════════╣
+║5        ║1                 ║5         ║
+╚═════════╩══════════════════╩══════════╝
+
+Fraccion resultante:1/2
+
+===SIMPLIFICACIÓN DE FRACCIONES===
+
+Fracción:5/10
+╔═════════╦══════════════════╦══════════╗
+║ Divisor ║ Veces que se usó ║ Producto ║
+╠═════════╬══════════════════╬══════════╣
+║5        ║1                 ║5         ║
+╚═════════╩══════════════════╩══════════╝
+
+Fraccion resultante:1/2
+
